@@ -1,0 +1,51 @@
+Source: python-xstatic-mdi
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all,
+               python-setuptools,
+               python3-all,
+               python3-setuptools,
+Build-Conflicts: python-xstatic,
+                 python3-xstatic,
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-xstatic-mdi.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-xstatic-mdi.git
+Homepage: https://github.com/stackforge/xstatic-mdi
+
+Package: python-xstatic-mdi
+Architecture: all
+Depends: fonts-materialdesignicons-webfont (>= 1.1.70),
+         python-xstatic,
+         ${misc:Depends},
+         ${python:Depends},
+Description: Material Design Icons Webfont XStatic support - Python 2.7
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Python 2.7 module support for the Material Design
+ Icons Webfont. See the description of the fonts-materialdesignicons-webfont
+ package.
+
+Package: python3-xstatic-mdi
+Architecture: all
+Depends: fonts-materialdesignicons-webfont (>= 1.1.70),
+         python3-xstatic,
+         ${misc:Depends},
+         ${python3:Depends},
+Description: Material Design Icons Webfont XStatic support - Python 3.x
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Python 3.x module support for the Material Design
+ Icons Webfont. See the description of the fonts-materialdesignicons-webfont
+ package.
