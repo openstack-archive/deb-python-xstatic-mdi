@@ -2,6 +2,7 @@ python-xstatic-mdi (1.1.70.1-2) UNRELEASED; urgency=medium
 
   * Fixed VCS URLs (https).
   * d/rules: Changed UPSTREAM_GIT to new URL
+  * d/copyright: Changed source URL to new one
 
  -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:54:57 +0100
 
