@@ -18,7 +18,7 @@ Homepage: https://github.com/stackforge/xstatic-mdi
 
 Package: python-xstatic-mdi
 Architecture: all
-Depends: fonts-materialdesignicons-webfont (>= 1.1.70),
+Depends: fonts-materialdesignicons-webfont (>= 1.4.57),
          python-xstatic,
          ${misc:Depends},
          ${python:Depends},
@@ -35,7 +35,7 @@ Description: Material Design Icons Webfont XStatic support - Python 2.7
 
 Package: python3-xstatic-mdi
 Architecture: all
-Depends: fonts-materialdesignicons-webfont (>= 1.1.70),
+Depends: fonts-materialdesignicons-webfont (>= 1.4.57),
          python3-xstatic,
          ${misc:Depends},
          ${python3:Depends},
