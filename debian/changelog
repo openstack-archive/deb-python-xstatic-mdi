@@ -12,6 +12,7 @@ python-xstatic-mdi (1.4.57.0-1) unstable; urgency=medium
   [ Thomas Goirand ]
   * Added Ivan as uploaders:.
   * Fixed debian/copyright ordering.
+  * Standards-Version is now 3.9.8 (no change).
 
  -- Thomas Goirand <zigo@debian.org>  Tue, 14 Jun 2016 09:27:40 +0000
 
