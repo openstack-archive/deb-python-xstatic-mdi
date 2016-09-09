@@ -1,4 +1,6 @@
 [gerrit]
 host=review.openstack.org
 port=29418
-project=openstack/xstatic-mdi.git
+project=openstack/deb-python-xstatic-mdi.git
+defaultbranch=debian/newton
+
